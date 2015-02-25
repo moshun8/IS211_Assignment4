@@ -109,25 +109,25 @@ def main():
         pyavg10000 = pytime10000 / 100
 
     print "Insertion Sort took {:.7f}".format(inavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Insertion Sort took {:.7f}".format(inavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Insertion Sort took {:.7f}".format(inavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
     print "Shell Sort took {:.7f}".format(shellavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Shell Sort took {:.7f}".format(shellavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Shell Sort took {:.7f}".format(shellavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
     print "Python Sort took {:.7f}".format(pyavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Python Sort took {:.7f}".format(pyavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Python Sort took {:.7f}".format(pyavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
 
 if __name__ == "__main__":

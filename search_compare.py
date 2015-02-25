@@ -160,32 +160,32 @@ def main():
         bireavg10000 = bire_time10000 / 100
 
     print "Sequential Search took {:.7f}".format(seqavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Sequential Search took {:.7f}".format(seqavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Sequential Search took {:.7f}".format(seqavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
     print "Ordered Sequential Search took {:.7f}".format(orseqavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Ordered Sequential Search took {:.7f}".format(orseqavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Ordered Sequential Search took {:.7f}".format(orseqavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
     print "Binary Iterative Search took {:.7f}".format(biitavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Binary Iterative Search took {:.7f}".format(biitavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Binary Iterative Search took {:.7f}".format(biitavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
     print "Binary Recursive Search took {:.7f}".format(bireavg500),
-    print "seconds to run, on average over 500 times"
+    print "seconds to run, on average over 500 items"
     print "Binary Recursive Search took {:.7f}".format(bireavg1000),
-    print "seconds to run, on average over 1,000 times"
+    print "seconds to run, on average over 1,000 items"
     print "Binary Recursive Search took {:.7f}".format(bireavg10000),
-    print "seconds to run, on average over 10,000 times"
+    print "seconds to run, on average over 10,000 items"
 
 if __name__ == "__main__":
     main()
